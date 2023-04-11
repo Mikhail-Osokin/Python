@@ -11,5 +11,6 @@ summ = 0
 while n>0:
     x = n%10
     summ = summ + x
-    n = n/10
-print (f"сумма цифр числа {a} равнa {round(summ)}")
+    n = n//10
+    print (x)
+print (f"сумма цифр числа {a} равнa {summ}")
